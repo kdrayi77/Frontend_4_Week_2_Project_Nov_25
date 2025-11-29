@@ -27,5 +27,13 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   }
 }
+"homepage": "https://kdrayi77.github.io/Frontend_4_Week_2_Project_Nov_25"
+
